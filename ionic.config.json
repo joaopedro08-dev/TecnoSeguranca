@@ -1,0 +1,7 @@
+{
+  "name": "diadeindustria",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
