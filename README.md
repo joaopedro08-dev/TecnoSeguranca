@@ -74,7 +74,7 @@ To install and run TecnoSegurança on your device or set up the development envi
 ### 📱 Application
 Follow the steps below to install TecnoSegurança on your Android device:
 
-1. **Download the APK**: Go to the releases section on GitHub and download the `tecnosegurança.apk` file.  
+1. **Download the APK**: Go to the releases section on GitHub and download the `tecnoseguranca.apk` file.  
    <a href="https://github.com/joaopedro08-dev/TecnoSeguranca/releases/tag/v1.0">Click here</a>
 
 ---
