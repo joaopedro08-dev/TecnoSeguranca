@@ -1,4 +1,4 @@
-# TecnoSegurança - Dia da Indústria
+# 🏭 TecnoSegurança - Industry Day
 
 <div align="left">
 
