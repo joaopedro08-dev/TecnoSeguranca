@@ -1,23 +1,24 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonImg } from '@ionic/react';
+import Logo from "../imgs/icon.png";
+import Estatisticas from '../components/Estatisticas';
 import './Tab3.css';
+import Cursos from '../components/Cursos';
+import { AnimatePresence } from 'framer-motion';
 
 const Tab3: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+        <IonToolbar className="custom-toolbar">
+          <IonImg src={Logo} className="logo-img" />
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 3 page" />
-      </IonContent>
+      <AnimatePresence mode='wait'>
+        <IonContent fullscreen>
+          <Estatisticas />
+          <Cursos />
+        </IonContent>
+      </AnimatePresence>
     </IonPage>
   );
 };

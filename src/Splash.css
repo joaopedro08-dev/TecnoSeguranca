@@ -1,0 +1,146 @@
+.splash-bg-0 {
+    background-image: url("imgs/splash0.png");
+}
+
+.splash-bg-1 {
+    background-image: url("imgs/splash1.png");
+}
+
+.splash-bg-2 {
+    background-image: url("imgs/splash2.png");
+}
+
+.container {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.header ion-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.header ion-buttons {
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+    color: white;
+}
+
+.header ion-router-link {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    background: transparent;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.main ion-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    background: transparent;
+    padding: 0;
+}
+
+.main ion-text {
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+    opacity: 0.8;
+    background: transparent;
+    margin-bottom: 40px;
+    margin: 5px;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    background: transparent;
+}
+
+.circle-swipers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+}
+
+.circle-swipers span {
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.circle-swipers span.active {
+    background: #007bff;
+    transform: scale(1.3);
+}
+
+.circle {
+    background: var(--ion-color-primary-tint);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle ion-icon {
+    color: white;
+    font-size: 28px;
+    background: transparent;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header ion-title {
+        font-size: 20px;
+    }
+    .main {
+        margin-bottom: 35px;
+        ion-title {
+            font-size: 20px;
+        }
+        ion-text {
+            font-size: 14px;
+        }
+    }
+}

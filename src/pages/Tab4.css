@@ -1,0 +1,77 @@
+.container-perfil {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    .picture {
+        background-color: #d9d9d9;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ion-text {
+            font-size: 28px;
+        }
+    }
+    .usernames {
+        display: flex;
+        flex-direction: column;
+        .user {
+            font-weight: bold;
+        }
+    }
+}
+
+.config {
+    padding: 20px;
+}
+
+.aba-config {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    color: #1a1a1a;
+}
+
+.aba-config ion-icon {
+    font-size: 16px;
+    margin-right: 12px;
+    color: #1a1a1a;
+}
+
+.aba-config ion-text {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.aba-config ion-text:last-child {
+    flex: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.aba-config:nth-child(3) ion-text:last-child {
+    font-size: 13px;
+    color: #007bff;
+}
+
+@media screen and (max-width: 320px) {
+    .container-perfil {
+        margin-top: 60px;
+        padding: 50px;
+    }
+}

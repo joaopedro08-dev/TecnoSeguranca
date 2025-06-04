@@ -1,0 +1,37 @@
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    ion-title {
+        text-align: center;
+        padding: 15px;
+    }
+    .buttons {
+        text-align: center;
+        ion-button {
+            font-size: 16px;
+            color: white;
+            margin: 15px;
+            width: 90%;
+            height: 60px;
+            font-weight: 300;
+            transition: all 0.5s ease;
+        }
+        ion-button:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.card {
+    background: #ccc;
+    color: black;
+    font-weight: 400;
+    padding: 20px;
+}
+
+ion-img {
+    width: 50%;
+    margin: 0 auto;
+}

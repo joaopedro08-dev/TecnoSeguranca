@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TecnoSegurança</string>
+    <string name="title_activity_main">TecnoSegurança</string>
+    <string name="package_name">io.ionic.industria</string>
+    <string name="custom_url_scheme">io.ionic.industria</string>
+</resources>
