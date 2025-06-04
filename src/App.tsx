@@ -29,7 +29,6 @@ import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 import '@ionic/react/css/palettes/dark.system.css';
 
-import './styles/Global.css'; 
 import Splash from './Splash'; 
 
 setupIonicReact();
